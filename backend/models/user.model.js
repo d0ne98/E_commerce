@@ -25,7 +25,7 @@ const userSchema = mongoose.Schema(
           type: Number,
           default: 1,
         },
-        producrt: {
+        product: {
           type: mongoose.Schema.Types.ObjectId,
           ref: "Product",
         },
